@@ -1,23 +1,6 @@
 let resumeData = {
   name: "Edward James Manansala",
   role: "Student Software Developer",
-  socialLinks: [
-    {
-      name: "facebook",
-      url: "https://www.facebook.com/edward.james.manansala/",
-      className: "fa fa-facebook",
-    },
-    {
-      name: "github",
-      url: "https://github.com/Dyamez",
-      className: "fa fa-github",
-    },
-    {
-      name: "discord",
-      userName: "dyamez",
-      className: "fa fa-discord",
-    },
-  ],
   aboutme: "Currently a student at ThriveDX taking up Software Development",
   address: "Las Vegas, NV",
   education: [
@@ -58,6 +41,27 @@ let resumeData = {
       description: "mongoDB",
       imgurl: "https://i.imgur.com/Is394Jqm.jpg",
       url: "https://project-rest-rant-6lha.onrender.com/",
+    },
+  ],
+  socialLinks: [
+    {
+      name: "facebook",
+      url: "https://www.facebook.com/edward.james.manansala/",
+      imgurl: "https://i.imgur.com/TQR56jAt.jpg",
+      className: "fa fa-facebook",
+    },
+    {
+      name: "github",
+      url: "https://github.com/Dyamez",
+      imgurl: "https://i.imgur.com/wTNqB0Gt.png",
+      className: "fa fa-github",
+    },
+    {
+      name: "discord",
+      userName: "dyamez",
+      url: "discordapp.com/users/dyamez",
+      imgurl: "https://i.imgur.com/UASGWEtt.png",
+      className: "fa fa-discord",
     },
   ],
 };

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
 import resumeData from "./resumeData";
@@ -12,8 +11,8 @@ function App() {
     <div className="App">
       <Header resumeData={resumeData} />
       <Resume resumeData={resumeData} />
-      <Footer resumeData={resumeData} />
       <Portfolio resumeData={resumeData} />
+      <Footer resumeData={resumeData} />
     </div>
   );
 }
