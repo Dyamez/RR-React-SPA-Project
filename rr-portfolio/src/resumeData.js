@@ -1,8 +1,10 @@
 let resumeData = {
   name: "Edward James Manansala",
   role: "Student Software Developer",
-  aboutme: "Currently a student at ThriveDX taking up Software Development",
+  aboutme:
+    "Currently a student at ThriveDX@UNLV taking up Software Development",
   address: "Las Vegas, NV",
+  image: "https://i.imgur.com/p7uPZJ9t.jpg",
   education: [
     {
       UniversityName:
@@ -27,6 +29,12 @@ let resumeData = {
     },
     {
       skillname: "Java Script",
+    },
+    {
+      skillname: "Ubuntu/Mint OS",
+    },
+    {
+      skillname: "Personal Computer repair, assembly & installation",
     },
   ],
   portfolio: [
